@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建axios实例
 const service = axios.create({
-    baseURL: 'http://ggkt.vipgz1.91tunnel.com', // api 的 base_url
+    baseURL: 'http://wanghanhan1999.viphk.91tunnel.com', // api 的 base_url
     //baseURL: 'http://glkt-api.atguigu.cn',
     timeout: 30000 // 请求超时时间
 

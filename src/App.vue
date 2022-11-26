@@ -35,7 +35,8 @@ export default {
             // 所有页面都必须登录，两次调整登录，这里与接口返回208状态
             token = window.localStorage.getItem('token') || '';
             if (token == '') {
-                let url = window.location.href.replace('#', 'guiguketan')
+                // vue中的路由会带上#号，需要处理
+                let url = window.location.href.replace('#', 'wanghanhan')
                 window.location = 'http://wanghanhan1999.viphk.91tunnel.com/api/user/wechat/authorize?returnUrl=' + url
             }
             console.log('token2：'+window.localStorage.getItem('token'));
