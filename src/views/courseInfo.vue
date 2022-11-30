@@ -123,7 +123,7 @@ export default {
      if(isFree === 1 || this.isBuy || this.courseVo.price == '0.00') {
         this.$router.push({ path: '/play/'+this.courseId+'/'+videoId })
       } else {
-         this.$router.push({ path: '/play/'+this.courseId+'/'+videoId })
+        this.$router.push({ path: '/play/'+this.courseId+'/'+videoId })
         // if (window.confirm("购买了才可以观看, 是否继续？")) {
         //   this.buy()
         // }
